@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Id registration</title>
+		div{
+			margin-top: 50px;
+			margin-bottom: 100px;
+			margin-right: 150px;
+			margin-left: 700px;
+		}
+        <script src="js/check3.js"></script>
+    </head>
+    <body background="fhbgi.png">
+                    <form action="php/validate.php" method="get" name="f1"><br/><br/>
+                        ID:  &nbsp;<input type="text" name="id" id="id_no" onblur="check()">(enter in this formate 16ab111)<br/>
+                        
+                        SEM:<select name="sem" id="sem" onblur="check()" on>
+                        <option value="10" selected="selected" disabled>--select--</option>
+                        <option value="1">sem-1</option>
+                        <option value="2">sem-2</option>
+                        <option value="3">sem-3</option>
+                        <option value="4">sem-4</option>
+                        <option value="5">sem-5</option>
+                        <option value="6">sem-6</option>
+                        <option value="7">sem-7</option>
+                        <option value="8">sem-8</option>
+                        </select><p style="color: darkred" id="err"></p>
+                        <br/>
+                        <p style="color: darkred" id="err2"></p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="submit" value="procced" id="sub"  onclic="check()" disabled>
+                    </form>
+    </body>
+</html>

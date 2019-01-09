@@ -1,0 +1,71 @@
+create table itsem1(id varchar(10),sub1 varchar(5),sub2 varchar(5),sub3 varchar(5),sub4 varchar(5),sub5 varchar(5),sub6 varchar(5),sgpa varchar(10),credit varchar(10));
+create table itsem2(id varchar(10),sub1 varchar(5),sub2 varchar(5),sub3 varchar(5),sub4 varchar(5),sub5 varchar(5),sgpa varchar(10),credit varchar(10));
+create table itsem3(id varchar(10),sub1 varchar(5),sub2 varchar(5),sub3 varchar(5),sub4 varchar(5),sub5 varchar(5),sub6 varchar(5),sub7 varchar(5),sgpa varchar(10),credit varchar(10));
+create table itsem4(id varchar(10),sub1 varchar(5),sub2 varchar(5),sub3 varchar(5),sub4 varchar(5),sub5 varchar(5),sub6 varchar(5),sub7 varchar(5),sgpa varchar(10),credit varchar(10));
+create table itsem5(id varchar(10),sub1 varchar(5),sub2 varchar(5),sub3 varchar(5),sub4 varchar(5),sub5 varchar(5),sub6 varchar(5),sub7 varchar(5),sgpa varchar(10),credit varchar(10));
+create table itsem6(id varchar(10),sub1 varchar(5),sub2 varchar(5),sub3 varchar(5),sub4 varchar(5),sub5 varchar(5),sub6 varchar(5),sub7 varchar(5),sgpa varchar(10),credit varchar(10));
+create table itsem7(id varchar(10),sub1 varchar(5),sub2 varchar(5),sub3 varchar(5),sub4 varchar(5),sub5 varchar(5),sub6 varchar(5),sgpa varchar(10),credit varchar(10));
+create table itsem8(id varchar(10),sub1 varchar(5),sgpa varchar(10),credit varchar(10));
+create table tillsem(id varchar(10),sem varchar(5));
+create table ssem1(no varchar(5),name varchar(20),credit varchar(10));
+create table ssem2(no varchar(5),name varchar(20),credit varchar(10));
+create table ssem3(no varchar(5),name varchar(20),credit varchar(10));
+create table ssem4(no varchar(5),name varchar(20),credit varchar(10));
+create table ssem5(no varchar(5),name varchar(20),credit varchar(10));
+create table ssem6(no varchar(5),name varchar(20),credit varchar(10));
+create table ssem7(no varchar(5),name varchar(20),credit varchar(10));
+create table ssem8(no varchar(5),name varchar(20),credit varchar(10));
+
+insert into ssem1(no,name,credit) values('1','ma141','4');
+insert into ssem1(no,name,credit) values('2','ce141','6');
+insert into ssem1(no,name,credit) values('3','ee141','5');
+insert into ssem1(no,name,credit) values('4','cl142','2');
+insert into ssem1(no,name,credit) values('5','hs101a-hs106a','2');
+insert into ssem1(no,name,credit) values('6','it142','2');
+
+insert into ssem2(no,name,credit) values('1','ma142','4');
+insert into ssem2(no,name,credit) values('2','ce142','6');
+insert into ssem2(no,name,credit) values('3','me144','5');
+insert into ssem2(no,name,credit) values('4','py141','4');
+insert into ssem2(no,name,credit) values('5','hs121a','2');
+
+insert into ssem3(no,name,credit) values('1','ma207','4');
+insert into ssem3(no,name,credit) values('2','it217','5');
+insert into ssem3(no,name,credit) values('3','it216','4');
+insert into ssem3(no,name,credit) values('4','em201.01','4');
+insert into ssem3(no,name,credit) values('5','it210','5');
+insert into ssem3(no,name,credit) values('6','hs122a/hs131a','2');
+insert into ssem3(no,name,credit) values('7','it211','1');
+
+insert into ssem4(no,name,credit) values('1','ma206.01','3');
+insert into ssem4(no,name,credit) values('2','it212','4');
+insert into ssem4(no,name,credit) values('3','it213','4');
+insert into ssem4(no,name,credit) values('4','it214','5');
+insert into ssem4(no,name,credit) values('5','it201.01','4');
+insert into ssem4(no,name,credit) values('6','hs123a','2');
+insert into ssem4(no,name,credit) values('7','it215','1');
+
+insert into ssem5(no,name,credit) values('1','it302.02','5');
+insert into ssem5(no,name,credit) values('2','ma301.01','3');
+insert into ssem5(no,name,credit) values('3','it314','6');
+insert into ssem5(no,name,credit) values('4','it303.02','4');
+insert into ssem5(no,name,credit) values('5','hs124a','2');
+insert into ssem5(no,name,credit) values('6','it316/317/313.01','4');
+insert into ssem5(no,name,credit) values('7','it318','1');
+
+insert into ssem6(no,name,credit) values('1','it315','5');
+insert into ssem6(no,name,credit) values('2','it319','4');
+insert into ssem6(no,name,credit) values('3','it306.02','6');
+insert into ssem6(no,name,credit) values('4','it307.02','4');
+insert into ssem6(no,name,credit) values('5','it320/321/323','4');
+insert into ssem6(no,name,credit) values('6','it322','1');
+insert into ssem6(no,name,credit) values('7','hs125a','2');
+
+insert into ssem7(no,name,credit) values('1','it415','5');
+insert into ssem7(no,name,credit) values('2','it409','4');
+insert into ssem7(no,name,credit) values('3','it402.01','6');
+insert into ssem7(no,name,credit) values('4','it410','3');
+insert into ssem7(no,name,credit) values('5','it105.01/412/404.01','5');
+insert into ssem7(no,name,credit) values('6','it414','1');
+
+insert into ssem8(no,name,credit) values('1','it407','20');
